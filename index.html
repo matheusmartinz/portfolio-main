@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">2M Dev</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <!-- <i class="bx bx-menu" id="menu-icon"></i> -->
+        <!-- <label for="menu" <i class="bx bx-menu" id="menu-icon"></i></label> -->
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Educação</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+       <div id="particles-js"> </div>
+        <div class="content">
+            <h1>Prazer, Me chamo <span>Matheus</span></h1>
+            <h3>Eu sou <span class="typing-text"></span></h3>
+            <a href="#contact" class="btn"><span>Contratar-me</span>
+            <i class="fa-regular fa-circle-down"></i>
+        </a>
+        <div class="social-icon">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+        </div>
+        <div class="image">
+            <img src="assets/image/astronaut.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">Sobre <span>Mim</span></h2>
+
+        <div class="about-img">
+            <img src="assets/image/moon.png" alt="">
+        </div>
+
+        <div class="about-content" style="text-align: center;">
+            <h2>Desenvolvedor</h2>
+            <p>Sou um jovem sonhador com bastante disposição para adquirir cada vez mais conhecimento em relação a tecnologia. Uma área tão ampla e com infinitas possibilidades.</p>
+            <a href="/CV Matheus_Martins.pdf" download class="btn">Baixar CV</a>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="container">
+            <div class="row" id="skillContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="/assets/image/skills/icon1.png" alt="javascript">
+                        <span>Javascript</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/assets/image/skills/icon2.png" alt="oracle">
+                        <span>Oracle</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/assets/image/skills/icon3.png" alt="excel">
+                        <span>Excel</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/assets/image/skills/icon4.png" alt="css">
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/assets/image/skills/icon5.png" alt="html">
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="/assets/image/skills/icon6.png" alt="git">
+                        <span>Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Minha <span>Formação</span></h2>
+        <div class="timeline">
+            <div class="container right">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Escolaridade</h2>
+                    </div>
+                    <div class="decs">
+                        <p>Objetivo Assis, São Paulo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Universidade</h2>
+                    </div>
+                    <div class="decs">
+                        <p>1 ano de Engenharia de Software. Unicesumar Maringá, Paraná</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container right" data-aos="fade-left">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Analista de Sitema</h2>
+                    </div>
+                    <div class="decs">
+                        <p>10 meses como Analista de Sistema TOTVS PIMS Mobile 2022/2023 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content" data-aos="fade-right">
+                    <div class="tag">
+                        <h2>Cursos</h2>
+                    </div>
+                    <div class="decs">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nostrum?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="">
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="Number" placeholder="Phone Number" required>
+            <input type="text" placeholder="Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Sua Mensagem" style="padding: 25px; align-items: center; justify-content: center; display: flex; width: 615px; height: 217px; margin-top: 25px;"></textarea> 
+        <input type="submit" value="Mandar Mensagem" class="btn" style="margin-top: 30px;">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"> <i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"> <i class="fa-brands fa-github"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Privacy Policies</a></li>
+        </ul>
+        <p class="copyright">
+            &copy; Matheus Coder | All Right Reserved
+        </p>
+    </footer>
+    <!-- ANIMAÇÃO -->
+    <script src="assets/js/script.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+    <script>
+        // Inicialização do Particles.js
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 160,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 1,
+                    "random": true,
+                    "anim": {
+                        "enable": true,
+                        "speed": 1,
+                        "opacity_min": 0,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 4,
+                        "size_min": 0.3,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 1,
+                    "direction": "none",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 600
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "bubble"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 250,
+                        "size": 0,
+                        "duration": 2,
+                        "opacity": 0,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 400,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+</html>
