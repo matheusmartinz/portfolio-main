@@ -169,7 +169,7 @@ html::-webkit-scrollbar-thumb {
     height: 100%; /* Ajuste a altura para cobrir toda a seção */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     #menu-icon {
         display: block;
     }
@@ -514,7 +514,7 @@ section {
 .about-content p {
     font-size: 1.8rem;
     max-width: 1000px;
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 1rem;
     padding: 10px;
 }
@@ -909,7 +909,20 @@ section {
     }
 }
 
+@media (max-width: 1042px) {
+    .home .image {
+        order: 1; /* Define a ordem da imagem */
+        align-items: center;
+    }
+
+    .home .content {
+        order: 2; /* Define a ordem do conteúdo */
+    }
+}
+
+
 @media (max-width: 991px) {
+
     .header {
         padding: 2rem 3%;
     }¨
