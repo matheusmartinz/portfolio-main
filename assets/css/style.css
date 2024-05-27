@@ -460,11 +460,18 @@ section {
 }
 
 @media (max-width: 450px) {
-    .home .content h3 {
+
+    .home .content h1 {
         font-size: 2.2rem;
     }
+    .home .content h3 {
+        font-size: 2rem;
+    }
+    .home .content h3 .typing-text {
+        font-size: 2.5rem;
+    }
     .home .content p span {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 }
 
