@@ -169,7 +169,7 @@ html::-webkit-scrollbar-thumb {
     height: 100%; /* Ajuste a altura para cobrir toda a seção */
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px) and (max-width: 1024px) {
     #menu-icon {
         display: block;
     }
